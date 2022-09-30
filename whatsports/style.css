@@ -1,0 +1,147 @@
+html { 
+    background: url(/Users/daniel/Desktop/projects/whatsports/resources/5801794.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    /* for up-down alignment */
+    align-items: center;
+    /* for let-right alignment */
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.9;
+    background-color: transparent;
+  }
+h3{
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 30px;
+}
+h1{
+    text-shadow: 10px 10px 20px black;
+}
+
+h1.display-4{
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+
+}
+#logo-image{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+#nav-bar li{
+    list-style: none;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#nav-bar li a{
+    text-decoration: none;
+    color: seashell;
+
+}
+
+.m_wrap{
+    width:100%;
+    height:200px;
+    }
+.dx{
+    width:100%;
+    height:200px;
+    overflow:scroll auto;
+    white-space: nowrap;
+    }
+
+.xcTopPicks{
+    display:inline-block;
+    width:300px;
+    height:170px;
+    border:1px solid whitesmoke;
+    line-height:80px;
+    text-align:center;
+    margin-bottom:4px;
+    margin-left: 20px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 20px 20px 50px black;
+    transition: width 1.5s, height 1.5s;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTc0MjQzMzI0NDEwOTk2MjIw/manchester-utd-v-liverpool-one-of-world-footballs-great-matches.jpg);
+    background-size: contain;
+}
+.xcYourPicks{
+    display:inline-block;
+    width:300px;
+    height:170px;
+    border:1px solid whitesmoke;
+    line-height:80px;
+    text-align:center;
+    margin-bottom:4px;
+    margin-left: 20px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 20px 20px 50px black;
+    transition: width 1.5s, height 1.5s;
+    background-image: url(https://i2-prod.football.london/chelsea-fc/fixtures-results/article18487992.ece/ALTERNATES/s1200/0_ChelseaManCity.jpg);
+    background-size: contain;
+}
+.xcYourTeams{
+    display:inline-block;
+    width:300px;
+    height:170px;
+    border:1px solid whitesmoke;
+    line-height:80px;
+    text-align:center;
+    margin-bottom:4px;
+    margin-left: 20px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 20px 20px 50px black;
+    transition: width 1.5s, height 1.5s;
+    background-image: url(https://i2-prod.football.london/incoming/article23928576.ece/ALTERNATES/s1200/0_Untitled-design-10.png);
+    background-size: contain;
+}
+.xcTopPicks:hover{
+    width: 330px;
+    height: 200px;
+}
+.xcYourPicks:hover{
+    width: 330px;
+    height: 200px;
+}
+.xcYourTeams:hover{
+    width: 330px;
+    height: 200px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #696969;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
